@@ -9,6 +9,7 @@ package analisador.lexer;
  * @author ig_al
  */
 
+//netto
 public class Token {
     private TokenType type;
     private String value;

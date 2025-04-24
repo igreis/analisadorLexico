@@ -9,6 +9,7 @@ package analisador.lexer;
  * @author ig_al
  */
 
+//kazuma
 public enum TokenType {
     KEYWORD,
     IDENTIFIER,

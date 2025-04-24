@@ -12,12 +12,13 @@ import java.util.*;
 import java.util.regex.*;
 
 public class Lexer {
-
+    //Kaua
     // Lista de palavras-chave da linguagem
     private static final Set<String> KEYWORDS = new HashSet<>(Arrays.asList(
         "if", "else", "while", "int", "return", "for", "float", "void"
     ));
 
+    //diogo
     // Map de expressões regulares por tipo de token
     private static final Map<TokenType, String> TOKEN_REGEX = Map.of(
         TokenType.WHITESPACE, "\\s+",
@@ -28,6 +29,7 @@ public class Lexer {
         TokenType.SYMBOL, "[(){};,]"
     );
 
+    //igor
     // Método que realiza a tokenização do código
     public static List<Token> tokenize(String input) {
         List<Token> tokens = new ArrayList<>(); // cria uma lista para armazenar os tokens
